@@ -9,7 +9,7 @@
 ## Installation
 
 ### Via Pathogen
-`git clone https://github.com/scrooloose/syntastic.git ~/.vim/bundle`
+`git clone https://github.com/muffs/wap-it.git ~/.vim/bundle`
 
 ### Via Vundle
 Add `Bundle 'muffs/wap-it'` to your bundle file.
