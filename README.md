@@ -15,7 +15,7 @@
 Add `Bundle 'muffs/wap-it'` to your bundle file.
 
 ## Usage
-`wap-it` binds two shortcuts for vim: `,ri` and `,rd`.
+`wap-it` binds two shortcuts for vim: `,wi` (wap `it`) and `,wd` (wap `describe`) lol.
 
-`,ri` will find the closest `it` block in relation to the currently focused row. From there, it will then toggle the existence of an `only` statement.
-`,rd` does the exact same thing for `describe` blocks.
+`,wi` will find the closest `it` block in relation to the currently focused row. From there, it will then toggle the existence of an `only` statement.
+`,wd` does the exact same thing for `describe` blocks.
