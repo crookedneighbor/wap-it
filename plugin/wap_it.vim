@@ -1,7 +1,7 @@
 " Find nearest it and replace it with it.only
 function! WapIt()
   " Find nearest it above from cursor row
-  exe "normal ?it\<CR>"
+  exe "normal ?^[ ]*it\<CR>"
   " Grab line
   let s:line=getline(".")
   " Check for existence of only
@@ -15,7 +15,7 @@ endfunction
 " Find nearest describe and replace it with describe.only
 function! WapDescribe()
   " Find nearest describe above from cursor row
-  exe "normal ?describe\<CR>"
+  exe "normal ?^[ ]*describe\<CR>"
   " Grab line
   let s:line=getline(".")
   " Check for existence of only
