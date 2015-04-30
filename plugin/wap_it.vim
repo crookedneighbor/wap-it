@@ -26,5 +26,5 @@ function! WapDescribe()
   endif
 endfunction
 
-:nmap ,wi :call WapIt()<CR>
-:nmap ,wd :call WapDescribe()<CR>
+:nmap <Leader>wi :call WapIt()<CR>
+:nmap <Leader>wd :call WapDescribe()<CR>
